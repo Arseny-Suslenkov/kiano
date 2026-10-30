@@ -33,7 +33,6 @@
       <img class="socials-icons" src="./icons/facebook.svg">
       </a>
     </li>
-    </div>
   </header>
   <main class="main">
     <section class="profile">
@@ -51,7 +50,7 @@
            У меня можно заказать дизайн и верстку небольшого
             сайта или интернет-магазина
         </p>
-        <button class="button profile__button">
+        <button class="button consultation__button">
           Бесплатная консультация
         </button>
       </article>
@@ -110,26 +109,99 @@
       </div>
     </section>
     <section class="gallery">
-      <div class="gallery__container">
-      <img class="gallery__image" 
+      <ul class="gallery__list">
+      <li class="gallery__list-item"><img class="gallery__image" 
       alt="Комната с узорами на стенах" 
-      src="./images/gallery01.jpg">
-      <img class="gallery__image" alt="Комната со стульями" src="./images/gallery02.jpg">
-      <img class="gallery__image" alt="Комната с людьми" src="./images/gallery03.jpg">
-      <img class="gallery__image" alt="Накрытый стол" src="./images/gallery04.jpg">
-      <img class="gallery__image" alt="Вывеска Figma на улице" src="./images/gallery05.jpg">
-      <video class="gallery__video" src="" controls muted poster="./images/gallery06.jpg" alt="видео, руки программиста печатают на ноутбуке"></video>
-      <img class="gallery__image" alt="Книжная полка" src="./images/gallery07.jpg">
-      <img class="gallery__image" alt="Столик" src="./images/gallery08.jpg">
-      <img class="gallery__image" alt="Программист" src="./images/gallery09.jpg">
-      <img class="gallery__image" alt="Логотип Figma отпечатан на листике" src="./images/gallery10.jpg">
-      <video class="gallery__video" src="Видео с мостом на фоне" controls muted poster="./images/gallery11.jpg"></video>
-      <img class="gallery__image" alt="Люди обедают" src="./images/gallery12.jpg">
+      src="./images/gallery01.jpg"></li>
+      <li class="gallery__list-item"><img class="gallery__image" 
+        alt="Комната со стульями" 
+        src="./images/gallery02.jpg"></li>
+      <li class="gallery__list-item"><img class="gallery__image" 
+        alt="Комната с людьми" 
+        src="./images/gallery03.jpg"></li>
+      <li class="gallery__list-item"><img class="gallery__image" 
+        alt="Накрытый стол" 
+        src="./images/gallery04.jpg"></li>
+      <li class="gallery__list-item"><img class="gallery__image" 
+        alt="Вывеска Figma на улице" 
+        src="./images/gallery05.jpg"></li>
+      <li class="gallery__list-item gallery__list-video"><video class="gallery__video" 
+        src="" alt="" controls muted 
+        poster="./images/gallery06.jpg" 
+        alt="видео, руки программиста 
+        печатают на ноутбуке"></video></li>
+      <li class="gallery__list-item"><img class="gallery__image" 
+        alt="Книжная полка" 
+        src="./images/gallery07.jpg"></li>
+      <li class="gallery__list-item"><img class="gallery__image" 
+        alt="Столик" src="./images/gallery08.jpg"></li>
+      <li class="gallery__list-item"><img class="gallery__image" 
+        alt="Программист" src="./images/gallery09.jpg"></li>
+      <li class="gallery__list-item"><img class="gallery__image" 
+        alt="Логотип Figma отпечатан на листике" 
+        src="./images/gallery10.jpg"></li>
+      <li class="gallery__list-item gallery__list-video"><video class="gallery__video" 
+        src="" alt="Видео с мостом на фоне" 
+        controls muted 
+        poster="./images/gallery11.jpg"></video></li>
+      <li class="gallery__list-item"><img class="gallery__image" 
+        alt="Люди обедают" src="./images/gallery12.jpg"></li>
     </div>
     </section>
   </main>
   <footer class="footer">
-
+    <h3 class="footer__header">Свяжитесь со мной</h3>
+  <div class="footer-block">
+    <form class="form">
+      <h4 class="form-title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
+    <fieldset class="fieldset">
+      <label class="input-label" for="username">
+      <input class="input input__username" name="username" id="username" type="text" placeholder="Ваше имя">
+      </label>
+      <label class="input-label" for="phone__number">
+      <input class="input input__phone" type="tel" name="phone__number" id="phone__number" placeholder="Ваш телефон">
+      </label>
+    </fieldset>
+    <button class="button consultation__button footer__button">
+          Бесплатная консультация
+    </button>
+    </form>
+    <address class="footer__my-block">
+      <div class="address-block">
+      <span class="footer__subtitles">Телефон</span>
+      <a class="my-phone-number footer__link" href="tel:+7 999 123 45 67">+7 999 123 45 67</a>
+      </div>
+      <div class="address-block">
+      <span class="footer__subtitles">Почта</span>
+      <a class="my-mail footer__link" href="mailto:ivanov@mail.ru">ivanov@mail.ru</a>
+      </div>
+      <div class="address-block">
+      <span class="footer__subtitles">Соцсети</span>
+      <ul class="socials-list">
+      <li>
+      <a href="#0" class="link">
+      <img class="socials-icons" src="./icons/github.svg">
+      </a>
+      </li>
+      <li>
+      <a href="#0" class="link">
+      <img class="socials-icons-twitter" src="./icons/twitter.svg">
+        </a>
+      </li>
+      <li>
+      <a href="#0" class="link">
+      <img class="socials-icons" src="./icons/instagram.svg">
+      </a>
+     </li>
+     <li>
+      <a href="#0" class="link">
+      <img class="socials-icons" src="./icons/facebook.svg">
+      </a>
+     </li>
+     </div>
+     <a class="link conf-link" href="#0">Политика конфиденциальности</a>
+    </address>
+  </div>
   </footer>
 </body>
 </html>
